@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #121212;
+}
+
+body {
+    background-color: #F6F2F2;
+}
+
+.nav {
+    height: 40px;
+    border: 1px solid #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #97FB57;
+}
+
+.img {
+    height: 30px;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials a {
+  margin-right: 10px;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+  transform: scale(1.2);
+}
+
+.nav-address {
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #121212;
+}
+
+.a {
+    text-decoration-line: none;
+    color: #F6F2F2;
+}
+
+.border {
+    background-color: transparent;
+}
+
+.border:hover {
+    background-color: #909090;
+    color: #121212;
+}
+
+.border:active {
+    background-color: #121212;
+    color: #F6F2F2;
+}
+
+
+/* Main */
+
+main {
+    background-color: #F6F2F2;
+}
+
+.banner-slider {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #121212;
+}
+
+.img1 {
+    height: 350px;
+    width: 92rem;
+}
+
+.btnn {
+    position: absolute;
+    top: 25%;
+    z-index: 10;
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    color: transparent;
+    border-radius: none;
+    height: 0rem;
+    width: 0rem;
+    font-size: 5em;
+    cursor: pointer;
+}
+
+.right-btn {
+    float: right;
+    right: 6%;
+    transform: translate(-50%, -50%);
+}
+
+.left-btn {
+    float: left;
+    left: 6%;
+    transform: translate(50%, -50%);
+}
+
+section h2 {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+section h3 {
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+
+/* boxes */
+
+.boxes {
+    height: 400px;
+    border: 4px solid ;
+    padding-top: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin-top: 1px;
+    margin-left: 1px;
+    padding-top: 15px;
+    padding-left: 20px;
+    height: 400px;
+    width: 28%;
+}
+
+.img2 {
+    height: 300px;
+    width: 350px;
+    border: 4px solid #121212;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #97FB57;
+    color: #121212;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #121212;
+    color: #F6F2F2;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 ul {
+    margin-top: 20px;
+}
+
+.foot-panel2 ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #F6F2F2;
+}
+
+.foot-panel3 {
+    background-color: #97FB57;
+    color: #F6F2F2;
+    border-top: 0.5px solid #F6F2F2;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("shopifylogo.png");
+    background-size: cover;
+    height: 60px;
+    width: 210px;
+}
+
+.foot-panel4 {
+    background-color: #121212;
+    color: #F6F2F2;
+    height: 100px;
+}
+
+.pages {
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+.main {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  line-height: 25px;
+  padding-left: 10px;
+}
+
+.form {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: #F6F2F2;
+}
+
+.input {
+  border: 1px solid #121212;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.select {
+  height: 25px;
+  width: 7rem;
+  border: 1px solid #121212;
+  border-radius: 2px;
+}
+
+.textarea {
+  border: 1px solid #121212;
+  border-radius: 2px;
+}
+
+.btn {
+  margin: 5px;
+  padding: 9px 14px;
+  border-radius: 2px;
+  color: white;
+  background-color: #4e5964;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+
+.btn.sm {
+  font-size: 10px;
+  padding: 7px 13px;
+  margin: 10px 0;
+}
+
+.btn:hover {
+  background-color: #91979e;
+}
+
+.box-contact {
+  text-align: center;
+  padding-top: 5rem;
+  margin: 5px;
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+  border: 2px solid #121212;
+}
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <img class="img" src="shopifylogo.png" alt="" />
+
+        <div class="socials">
+        <a href="https://www.facebook.com/saifullahkhan/" target="_blank"
+          ><img
+            src="fb.png"
+            alt="Facebook"
+        /></a>
+        <a href="https://x.com/SaifTheKhan16" target="_blank"
+          ><img
+            src="twitter.png"
+            alt="Twitter"
+        /></a>
+        <a href="https://www.instagram.com/safie_khan/" target="_blank"
+          ><img
+            src="insta.png"
+            alt="Instagram"
+        /></a>
+          </div>
+      </div>
+
+      <nav class="nav-address">
+        <a class="a border" href="index.html">Home</a>
+        <a class="a border" href="about.html">About Us</a>
+        <a class="a border" href="product.html">Product</a>
+        <a class="a border" href="contact.html">Contact us</a>
+      </nav>
+    </header>
+    <main>
+      <h3>Contact Us</h3>
+      <div class="main">
+        <form action="">
+          <label class="form" for="name">Name:</label><br>
+          <input class="form input" type="text" /><br /><br />
+          <label class="form" for="email">Email:</label><br>
+          <input class="form input" type="text" /><br /><br />
+          <label class="form" for="number">Number:</label><br>
+          <input class="form input" type="text" /><br /><br />
+            
+            <h3><b> Role:</b></h3><br>
+          <input
+            class="form"
+            type="radio"
+            id="teacher"
+            name="role"
+            value="teacher"
+          />
+          <label class="form" for="teacher">Teacher</label>
+          <input
+            class="form"
+            type="radio"
+            id="student"
+            name="role"
+            value="student"
+          />
+          <label class="form" for="student">Student</label><br /><br>
+            <label class="form" for="city"><b>City:</b></label>
+          <select class="select" name="city" id="city">
+            <option value="Peshawar">Peshawar</option>
+            <option value="Karachi">Karachi</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="lahore">Lahore</option></select
+          ><br /><br>
+          <label class="form" for="message">Message:</label><br />
+          <textarea
+            class="form textarea"
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea
+          ><br />
+          <input class="btn" type="submit" />
+        </form>
+        <br>
+
+        <div class="boxes-contact">
+          <div class="box-contact">
+            i-10/4, Street 118 , Islamabad
+          </div>
+          <div class="box-contact">
+            National University of Modern Languages, Islamabad <br />
+            BS Software Engineering
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+        <div class="foot-panel1">Back to Top</div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Shopify</a>
+                <a href="">Investor Relations</a>
+                <a href="">Shopify Devices</a>
+                <a href="">Shopify Science</a>
+            </ul>
+
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="">Sell products on Shopify</a>
+                <a href="">Sell on Shopify Business</a>
+                <a href="">Sell apps on Shopify</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Advertise Your Products</a>
+                <a href="">Self-Publish with Us</a>
+                <a href="">Host an Shopify Hub</a>
+                <a href="">See More Make Money with Us</a>
+            </ul>
+
+            <ul>
+                <p>Shopify Payment Products</p>
+                <a href="">Shopify Business Card</a>
+                <a href="">Shop with Points</a>
+                <a href="">Reload Your Balance</a>
+                <a href="">Shopify Currency Converter</a>
+            </ul>
+
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="">Shopify and COVID-19</a>
+                <a href="">Your Account</a>
+                <a href="">Your Orders</a>
+                <a href="">Shipping Rates & Policies</a>
+                <a href="">Returns & Replacements</a>
+                <a href="">Manage Your Content and Devices</a>
+                <a href="">Shopify Assistant</a>
+                <a href="">Help</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="">Condition of Use</a>
+                <a href="">Privacy Notice</a>
+                <a href="">Your ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1992-2024, Shopify.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>

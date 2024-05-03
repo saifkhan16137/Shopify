@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <img class="img" src="shopifylogo.png" alt="" />
+            <div class="socials">
+        <a href="https://www.facebook.com/saifullahkhan/" target="_blank"
+          ><img
+            src="fb.png"
+            alt="Facebook"
+        /></a>
+        <a href="https://x.com/SaifTheKhan16" target="_blank"
+          ><img
+            src="twitter.png"
+            alt="Twitter"
+        /></a>
+        <a href="https://www.instagram.com/safie_khan/" target="_blank"
+          ><img
+            src="insta.png"
+            alt="Instagram"
+        /></a>
+          </div>
+        </div>
+
+        <nav class="nav-address">
+            <a class="a border" href="index.html">Home</a>
+            <a class="a border" href="about.html">About Us</a>
+            <a class="a border" href="product.html">Product</a>
+            <a class="a border" href="contact.html">Contact us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner-slider">
+
+            <div class=" w3-content w3-display-container">
+                <img class="img1 mySlides" src="boxing2.jpg">
+                <img class="img1 mySlides" src="boxing1.jpg">
+                <img class="img1 mySlides" src="boxing3.jpg">
+                <img class="img1 mySlides" src="boxing4.jpg">
+
+                <button class="btnn left-btn w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+
+
+                <button class="btnn right-btn w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = x.length
+                    }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+
+        </section>
+
+        <section class="latest-product">
+            <h2>
+                You are on Shopify.com. Here you can find your favourite & millions of Boxing Gears with fastest local delivery.
+            </h2>
+            <br /><br />
+            <h3>Latest Product</h3>
+
+            <div class="boxes">
+                <div class="box">
+                    <img class="img2" src="boxing3.jpg" alt="" />
+                    <h3>Best Quality Gloves</h3>
+                </div>
+
+                <div class="box">
+                    <img class="img2" src="boxing1.jpg" alt="" />
+                    <h3>Find Your Best Sports</h3>
+                </div>
+
+                <div class="box">
+                    <img class="img2" src="punching wall.jpg" alt="" />
+                    <h3>Discover Electric Machines</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="foot-panel1">Back to Top</div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Shopify</a>
+                <a href="">Investor Relations</a>
+                <a href="">Shopify Devices</a>
+                <a href="">Shopify Science</a>
+            </ul>
+
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="">Sell products on Shopify</a>
+                <a href="">Sell on Shopify Business</a>
+                <a href="">Sell apps on Shopify</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Advertise Your Products</a>
+                <a href="">Self-Publish with Us</a>
+                <a href="">Host an Shopify Hub</a>
+                <a href="">See More Make Money with Us</a>
+            </ul>
+
+            <ul>
+                <p>Shopify Payment Products</p>
+                <a href="">Shopify Business Card</a>
+                <a href="">Shop with Points</a>
+                <a href="">Reload Your Balance</a>
+                <a href="">Shopify Currency Converter</a>
+            </ul>
+
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="">Shopify and COVID-19</a>
+                <a href="">Your Account</a>
+                <a href="">Your Orders</a>
+                <a href="">Shipping Rates & Policies</a>
+                <a href="">Returns & Replacements</a>
+                <a href="">Manage Your Content and Devices</a>
+                <a href="">Shopify Assistant</a>
+                <a href="">Help</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="">Condition of Use</a>
+                <a href="">Privacy Notice</a>
+                <a href="">Your ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1992-2024, Shopify.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
